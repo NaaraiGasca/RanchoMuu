@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FAD567"
-    android:backgroundTint="#FAD567"
-    tools:context=".MainActivity">
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    app:cardBackgroundColor="@color/white"
+    tools:context=".Registro">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/white"
-        android:backgroundTint="@color/white"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,61 +28,83 @@
             android:layout_height="15dp" />
 
         <TextView
-            android:id="@+id/textView5"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Menú Principal"
+            android:text="Registro De Usuario"
             android:textAlignment="center"
-            android:textColor="#EA0C25"
+            android:textColor="#D3060D"
             android:textSize="34sp"
             tools:layout_editor_absoluteX="113dp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="18dp" />
-
-        <Button
-            android:id="@+id/btnAltaProductos"
+        <TextView
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Añadir animal"
+            android:text="Nombre:"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200" />
+
+        <EditText
+            android:id="@+id/nombreAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
             android:textColor="@color/blanco"
-            android:textColorHint="@color/blanco"
-            app:icon="@drawable/graneroo"
-            app:iconTint="@color/blanco" />
+            android:textColorHighlight="@color/blanco"
+            android:textColorHint="@color/blanco" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/btnMostrar"
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ver animales"
+            android:text="Correo electrónico:"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200" />
+
+        <EditText
+            android:id="@+id/correoAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
             android:textColor="@color/blanco"
-            android:textColorHighlight="#4CAF50"
-            android:textColorHint="@color/white"
-            app:icon="@drawable/ganadoooo"
-            app:iconTint="@color/blanco" />
+            android:textColorHint="@color/teal_700" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textColorHint="@color/blanco" />
+
+        <EditText
+            android:id="@+id/passwordAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/blanco"
+            android:textColorHint="@color/blanco" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="15dp" />
 
         <Button
-            android:id="@+id/btnPedidos"
+            android:id="@+id/btnRegistroProducto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pedidos"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Registrarse"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             app:icon="@drawable/tractor"
-            app:iconTint="@color/blanco"
-            app:rippleColor="@color/white" />
+            app:iconTint="@color/white" />
 
         <Space
             android:layout_width="match_parent"
@@ -92,16 +113,16 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="266dp"
+            android:layout_height="140dp"
             android:ems="10"
             app:srcCompat="@drawable/granjaaaa" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="0dp" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fbtncerrarsesion"
+            android:id="@+id/rfbtncerrarsesion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
@@ -113,6 +134,5 @@
             app:icon="@drawable/salir"
             app:iconTint="@color/white" />
 
-
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

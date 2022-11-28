@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAD567"
-    android:backgroundTint="#FAD567"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,13 +16,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/white"
         android:backgroundTint="@color/white"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <Space
             android:layout_width="match_parent"
@@ -34,7 +35,7 @@
             android:layout_height="wrap_content"
             android:text="Menú Principal"
             android:textAlignment="center"
-            android:textColor="#EA0C25"
+            android:textColor="#F30C0C"
             android:textSize="34sp"
             tools:layout_editor_absoluteX="113dp" />
 
@@ -42,48 +43,64 @@
             android:layout_width="match_parent"
             android:layout_height="18dp" />
 
-        <Button
-            android:id="@+id/btnAltaProductos"
+        <TextView
+            android:id="@+id/tvMensaje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Añadir animal"
+            android:backgroundTint="#000000"
+            android:textColor="#000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ubtnPedidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver animales/ Hacer pedido"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/blanco"
+            android:textColorHint="@color/white"
+            app:icon="@drawable/graneroo"
+            app:iconTint="@color/white"
+            app:rippleColor="@color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ubtnVerMisPedidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mis compras"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/blanco"
             android:textColorHint="@color/blanco"
-            app:icon="@drawable/graneroo"
-            app:iconTint="@color/blanco" />
+            app:icon="@drawable/campo"
+            app:iconTint="@color/white"
+            app:rippleColor="@color/white" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/btnMostrar"
+            android:id="@+id/btnMapa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ver animales"
+            android:text="Ver ubicación del rancho"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/blanco"
             android:textColorHighlight="#4CAF50"
-            android:textColorHint="@color/white"
-            app:icon="@drawable/ganadoooo"
+            android:textColorHint="@color/blanco"
+            app:icon="@drawable/mapa"
             app:iconTint="@color/blanco" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/btnPedidos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pedidos"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            app:icon="@drawable/tractor"
-            app:iconTint="@color/blanco"
-            app:rippleColor="@color/white" />
 
         <Space
             android:layout_width="match_parent"
@@ -92,7 +109,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="266dp"
+            android:layout_height="234dp"
             android:ems="10"
             app:srcCompat="@drawable/granjaaaa" />
 
@@ -101,7 +118,7 @@
             android:layout_height="wrap_content" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fbtncerrarsesion"
+            android:id="@+id/ufbtncerrarsesion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
