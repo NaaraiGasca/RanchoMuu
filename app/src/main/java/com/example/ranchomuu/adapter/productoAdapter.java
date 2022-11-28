@@ -20,10 +20,10 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.pascmsx.tienda.AltaProductoActivity;
-import com.pascmsx.tienda.R;
-import com.pascmsx.tienda.model.producto;
-import com.squareup.picasso.Picasso;
+import com.example.ranchomuu.AltaProductoActivity;
+import com.example.ranchomuu.R;
+import com.example.ranchomuu.model.producto;
+//import com.squareup.picasso.Picasso;
 
 public class productoAdapter extends FirestoreRecyclerAdapter<producto, productoAdapter.ViewHolder>
 {

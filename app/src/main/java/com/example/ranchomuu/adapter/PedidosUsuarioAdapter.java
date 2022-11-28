@@ -17,8 +17,8 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.pascmsx.tienda.R;
-import com.pascmsx.tienda.model.PedidosUsuario;
+import com.example.ranchomuu.R;
+import com.example.ranchomuu.model.PedidosUsuario;
 
 public class PedidosUsuarioAdapter extends FirestoreRecyclerAdapter<PedidosUsuario, PedidosUsuarioAdapter.ViewHolder> {
     private FirebaseFirestore mfirestore = FirebaseFirestore.getInstance();

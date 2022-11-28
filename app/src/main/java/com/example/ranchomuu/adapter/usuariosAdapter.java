@@ -17,9 +17,9 @@ import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.pascmsx.tienda.AltaProductoPedido;
-import com.pascmsx.tienda.R;
-import com.pascmsx.tienda.model.producto;
+import com.example.ranchomuu.AltaProductoPedido;
+import com.example.ranchomuu.R;
+import com.example.ranchomuu.model.producto;
 import com.squareup.picasso.Picasso;
 
 public class usuariosAdapter extends FirestoreRecyclerAdapter<producto, usuariosAdapter.ViewHolder>

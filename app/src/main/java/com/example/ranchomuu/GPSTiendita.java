@@ -10,7 +10,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.pascmsx.tienda.databinding.ActivityGpstienditaBinding;
+import com.example.ranchomuu.databinding.ActivityGpstienditaBinding;
 
 public class GPSTiendita extends FragmentActivity implements OnMapReadyCallback {
 
