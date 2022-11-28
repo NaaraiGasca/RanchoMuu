@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378593742815",
+    "project_id": "ranchomuu-88cbb",
+    "storage_bucket": "ranchomuu-88cbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378593742815:android:2bc6247f1d7e2bfd297e6a",
+        "android_client_info": {
+          "package_name": "com.example.ranchomuu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378593742815-4s76efekdnckqgu3fdk1rnrf44mfl3em.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiXw4nghxQXr7_4aRStvuDttJjDQlWab4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378593742815-4s76efekdnckqgu3fdk1rnrf44mfl3em.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
