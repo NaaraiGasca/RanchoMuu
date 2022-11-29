@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
 
@@ -51,7 +52,7 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Debe completar los campos.", Toast.LENGTH_SHORT).show();
                 }else
                     {
-                        loginUser(emailUser, passUser);
+                            loginUser(emailUser, passUser);
                     }
             }
         });
@@ -66,7 +67,7 @@ public class Login extends AppCompatActivity {
                 if (task.isSuccessful())
                 {
                     finish();
-                    if(emailUser.equals("admi@gmail.com"))
+                    if(emailUser.equals("admin@gmail.com"))
                     {
                         Toast.makeText(Login.this, "Bienvenido.", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(Login.this, MainActivity.class));
@@ -90,7 +91,7 @@ public class Login extends AppCompatActivity {
         });
     }
 
-    /*@Override
+    @Override
     protected void onStart() {
         super.onStart();
         FirebaseUser user = mAuth.getCurrentUser();
@@ -99,7 +100,7 @@ public class Login extends AppCompatActivity {
             startActivity(new Intent(Login.this, MainActivity.class));
             finish();
         }
-    }*/
+    }
 
     void Limpiar()
     {
