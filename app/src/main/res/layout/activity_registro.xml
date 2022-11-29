@@ -52,9 +52,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="@color/blanco"
-            android:textColorHighlight="@color/blanco"
-            android:textColorHint="@color/blanco" />
+            android:textColor="@color/purple_700"
+            android:textColorHighlight="@color/purple_700"
+            android:textColorHint="@color/purple_700" />
 
         <TextView
             android:id="@+id/textView3"
@@ -71,8 +71,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:textColor="@color/blanco"
-            android:textColorHint="@color/teal_700" />
+            android:textColor="@color/purple_700"
+            android:textColorHint="@color/purple_700" />
 
         <TextView
             android:id="@+id/textView"
@@ -89,8 +89,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword"
-            android:textColor="@color/blanco"
-            android:textColorHint="@color/blanco" />
+            android:textColor="@color/purple_700"
+            android:textColorHint="@color/purple_700" />
 
         <Space
             android:layout_width="match_parent"

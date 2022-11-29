@@ -1,6 +1,6 @@
 package com.example.ranchomuu.data;
 
-import com.pascmsx.tienda.data.model.LoggedInUser;
+import com.example.ranchomuu.data.model.LoggedInUser;
 
 import java.io.IOException;
 

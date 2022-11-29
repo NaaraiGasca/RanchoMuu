@@ -1,17 +1,15 @@
 package com.example.ranchomuu;
-
 import android.os.Bundle;
 import android.widget.SearchView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.ranchomuu.adapter.PedidosUsuarioAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
+import com.example.ranchomuu.model.PedidosUsuario;
 
 public class mostrarPedidosUsuario extends AppCompatActivity {
 

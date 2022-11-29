@@ -1,6 +1,6 @@
 package com.example.ranchomuu.data;
 
-import com.pascmsx.tienda.data.model.LoggedInUser;
+import com.example.ranchomuu.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

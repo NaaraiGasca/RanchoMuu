@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-import com.pascmsx.tienda.adapter.PedidosAdminAdapter;
-import com.pascmsx.tienda.model.PedidosAdmin;
+import com.example.ranchomuu.adapter.PedidosAdminAdapter;
+import com.example.ranchomuu.model.PedidosAdmin;
 
 public class mostrarPedidosAdmin extends AppCompatActivity {
 

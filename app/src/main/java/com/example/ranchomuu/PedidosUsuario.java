@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-import com.pascmsx.tienda.adapter.usuariosAdapter;
-import com.pascmsx.tienda.model.producto;
+import com.example.ranchomuu.adapter.usuariosAdapter;
+import com.example.ranchomuu.model.producto;
 
 public class PedidosUsuario extends AppCompatActivity {
 

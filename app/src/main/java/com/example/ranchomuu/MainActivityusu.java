@@ -39,14 +39,14 @@ public class MainActivityusu extends AppCompatActivity {
         obtenerUsuario(id);
 
         //mensaje.setText("Bienvenido " + id);
-        btnVideo = findViewById(R.id.btnVideo);
+        //btnVideo = findViewById(R.id.btnVideo);
 
-        btnVideo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivityusu.this, video.class));
-            }
-        });
+        //btnVideo.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+         //   public void onClick(View view) {
+           //     startActivity(new Intent(MainActivityusu.this, video.class));
+          //  }
+        //});
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

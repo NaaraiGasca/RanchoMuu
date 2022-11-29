@@ -23,7 +23,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.example.ranchomuu.AltaProductoActivity;
 import com.example.ranchomuu.R;
 import com.example.ranchomuu.model.producto;
-//import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Picasso;
 
 public class productoAdapter extends FirestoreRecyclerAdapter<producto, productoAdapter.ViewHolder>
 {
