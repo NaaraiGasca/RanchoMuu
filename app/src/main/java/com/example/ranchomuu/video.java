@@ -18,7 +18,7 @@ public class video extends AppCompatActivity {
         setContentView(R.layout.activity_video);
         v1 = findViewById(R.id.vvTutorialVideo);
 
-        v1.setVideoURI(Uri.parse("android.resource://"+ getPackageName() + "/" + R.raw.tutorial));
+        //v1.setVideoURI(Uri.parse("android.resource://"+ getPackageName() + "/" + R.raw.tutorial));
         v1.start();
     }
 

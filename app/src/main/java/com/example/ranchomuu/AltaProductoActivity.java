@@ -1,5 +1,6 @@
 package com.example.ranchomuu;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -159,6 +160,7 @@ public class AltaProductoActivity extends AppCompatActivity {
         String rute_storage_photo = storage_path + "" + photo + "" + mAuth.getUid() +""+ idd;
         StorageReference reference = storageReference.child(rute_storage_photo);
         reference.putFile(image_url).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            @SuppressLint("SuspiciousIndentation")
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                 Task<Uri> uriTask = taskSnapshot.getStorage().getDownloadUrl();
