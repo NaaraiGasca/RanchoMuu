@@ -10,7 +10,8 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.pascmsx.tienda.databinding.ActivityGpsactivityBinding;
+import com.example.ranchomuu.databinding.ActivityGpsactivityBinding;
+
 
 public class GPSActivity extends FragmentActivity implements OnMapReadyCallback {
 
